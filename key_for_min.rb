@@ -11,5 +11,5 @@ min_val = Float::Infinity
       min_key = arg
     end
   end
-    key_val
+    min_key
 end
