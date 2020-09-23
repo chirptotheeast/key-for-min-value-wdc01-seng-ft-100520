@@ -6,7 +6,7 @@ def key_for_min_value(hash)
   lowest_key = nil
   lowest_value = Float::INFINITY
   hash.each do |a, b|
-    if a < lowest_value
+    if b < lowest_value
       lowest_value = b
       lowest_key = a
     end
