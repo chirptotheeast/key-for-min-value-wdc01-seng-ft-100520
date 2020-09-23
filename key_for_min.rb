@@ -7,5 +7,6 @@ def key_for_min_value(name_hash)
     if key[value] < key[value].max
       key_val = key
     end
+  end
     key_val
 end
