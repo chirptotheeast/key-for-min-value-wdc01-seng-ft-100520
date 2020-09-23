@@ -8,7 +8,7 @@ min_val = Float::Infinity
   name_hash.each do |arg, val|
     if val < min_val
       min_val = val 
-      min_key
+      min_key = arg
     end
   end
     key_val
